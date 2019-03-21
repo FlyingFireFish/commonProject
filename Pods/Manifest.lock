@@ -1,0 +1,16 @@
+PODS:
+  - FaveButton (3.0.0)
+
+DEPENDENCIES:
+  - FaveButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FaveButton
+
+SPEC CHECKSUMS:
+  FaveButton: 1fa9cd7b037d7164e229765401931271adbe3a23
+
+PODFILE CHECKSUM: c91d69df5e1b8fd0bd256bc8f8305436705ef9f4
+
+COCOAPODS: 1.5.3

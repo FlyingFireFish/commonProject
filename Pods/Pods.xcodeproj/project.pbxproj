@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABB5A073E931A6FDC27DB4D72A444ED /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CB0B4B87C2CA683CBC5620FB6C654 /* Ring.swift */; };
+		1ECB6C42256CFB84EF41E6EE4D84A00A /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737AFBF73989161E3FCBD926E30E94BC /* Easing.swift */; };
+		3323C2469962931486138882E0101305 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585B0EAA3BA71C66E6A8BAC712744D4 /* Geometry.swift */; };
+		3B3E1EEB43DDE8FA1D63B7AD93A7D131 /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B145825375C91725A189FE50F4D8269 /* FaveButton.swift */; };
+		4ABF9CBD6DBDF4284C60E90544893BF4 /* Pods-PodProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C271DA50A36F9541451889E314D2DF58 /* Pods-PodProject-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C5FF9CBB4CF9EF093DEFFFF40646352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BBBF20F3F0663A466810033A60F3F83C /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2128936F2E03FE107A47D12EB881AF8 /* Spark.swift */; };
+		BE80D32AC4CA8EDE1F4BDE7ACBF49F79 /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202CE9CB95CA0FB19C3318C75B116C28 /* Constraints+.swift */; };
+		CB9E38A0A00A6B49CBBCA62AA48E3D6F /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1DB69CE44DE681524F9B3BE014EC3 /* FaveIcon.swift */; };
+		CD77651B3AACB20C744971505D2DD2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF84371C3E45A1BCF08CD9F117A8BF0F /* FaveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C7CF65EB2507CFC42DB0E1FCCF480 /* FaveButton-dummy.m */; };
+		D1E4152EE4E44B561C70C778089D123A /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885716617944D7973B75864E98C0C5D2 /* Init.swift */; };
+		D62ACA94948F3B7615DFB455A3FEEDAF /* Pods-PodProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20048C1AA2745B2D61BEEB82FCE64120 /* Pods-PodProject-dummy.m */; };
+		E40B00F67F04EE67BAE542F96CDBDC89 /* FaveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6587029E8100105D583EA07B07B712 /* FaveButton-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB79C46CC85BFE429B83B3B0CD6FDB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0A2A3970BB3CC605B95F4FB59F8B77;
+			remoteInfo = FaveButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20048C1AA2745B2D61BEEB82FCE64120 /* Pods-PodProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodProject-dummy.m"; sourceTree = "<group>"; };
+		202CE9CB95CA0FB19C3318C75B116C28 /* Constraints+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constraints+.swift"; path = "Source/Helpers/Constraints+.swift"; sourceTree = "<group>"; };
+		2D289FC895460F65A9830DE685AF28AE /* FaveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaveButton-prefix.pch"; sourceTree = "<group>"; };
+		479231312FDBF141F9FDB588D853A43C /* Pods-PodProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PodProject.modulemap"; sourceTree = "<group>"; };
+		5BE5B5B34A317C0D3614DA28832B54B1 /* libFaveButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFaveButton.a; path = libFaveButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BAD76B9F37983B7C7C5D18FEED7FC0 /* Pods-PodProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodProject.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B145825375C91725A189FE50F4D8269 /* FaveButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaveButton.swift; path = Source/FaveButton.swift; sourceTree = "<group>"; };
+		737AFBF73989161E3FCBD926E30E94BC /* Easing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Easing.swift; path = Source/Helpers/Easing.swift; sourceTree = "<group>"; };
+		7E6587029E8100105D583EA07B07B712 /* FaveButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FaveButton-umbrella.h"; path = "../../Headers/Public/FaveButton/FaveButton-umbrella.h"; sourceTree = "<group>"; };
+		8036A8CD7CC1592A4D3024600867A0CB /* Pods-PodProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		831E60BA669FA6AC0739D1554DE87C36 /* Pods-PodProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodProject-frameworks.sh"; sourceTree = "<group>"; };
+		885716617944D7973B75864E98C0C5D2 /* Init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Init.swift; path = Source/Helpers/Init.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF90EBE5EC4554E7079DB4D67039CC16 /* libPods-PodProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PodProject.a"; path = "libPods-PodProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5E5919A6E01F8A7BFDFDA01142FE52 /* FaveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaveButton.xcconfig; sourceTree = "<group>"; };
+		C2128936F2E03FE107A47D12EB881AF8 /* Spark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spark.swift; path = Source/Spark.swift; sourceTree = "<group>"; };
+		C271DA50A36F9541451889E314D2DF58 /* Pods-PodProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodProject-umbrella.h"; sourceTree = "<group>"; };
+		C59C7CF65EB2507CFC42DB0E1FCCF480 /* FaveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaveButton-dummy.m"; sourceTree = "<group>"; };
+		D2EFB0844F57EAFD161EDFADFF04CDF3 /* Pods-PodProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBB1DB69CE44DE681524F9B3BE014EC3 /* FaveIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaveIcon.swift; path = Source/FaveIcon.swift; sourceTree = "<group>"; };
+		F3D1C88DBB022976D7827E3B1E315602 /* Pods-PodProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F585B0EAA3BA71C66E6A8BAC712744D4 /* Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Geometry.swift; path = Source/Helpers/Geometry.swift; sourceTree = "<group>"; };
+		F6D904069D5AD18BDABF1E6155DB85DE /* FaveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = FaveButton.modulemap; path = ../../Headers/Public/FaveButton/FaveButton.modulemap; sourceTree = "<group>"; };
+		FA7EF02ED2502503A9CCD906B687D9CF /* Pods-PodProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodProject-resources.sh"; sourceTree = "<group>"; };
+		FC1CB0B4B87C2CA683CBC5620FB6C654 /* Ring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ring.swift; path = Source/Ring.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42264542FEF4A672A8BDFF6C9CD7062E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77651B3AACB20C744971505D2DD2AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536E79C17B761804D57B0DC513D78681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5FF9CBB4CF9EF093DEFFFF40646352 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36021BB2442B1205ECB4728C09A6C2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE5B5B34A317C0D3614DA28832B54B1 /* libFaveButton.a */,
+				AF90EBE5EC4554E7079DB4D67039CC16 /* libPods-PodProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA391887326162B506E94CAAC2CFF08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78FB154EB377896BA50FC72DD7580A36 /* FaveButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		667EB13D4FC90772DF26821ECF751ACB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D904069D5AD18BDABF1E6155DB85DE /* FaveButton.modulemap */,
+				BF5E5919A6E01F8A7BFDFDA01142FE52 /* FaveButton.xcconfig */,
+				C59C7CF65EB2507CFC42DB0E1FCCF480 /* FaveButton-dummy.m */,
+				2D289FC895460F65A9830DE685AF28AE /* FaveButton-prefix.pch */,
+				7E6587029E8100105D583EA07B07B712 /* FaveButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaveButton";
+			sourceTree = "<group>";
+		};
+		78FB154EB377896BA50FC72DD7580A36 /* FaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				202CE9CB95CA0FB19C3318C75B116C28 /* Constraints+.swift */,
+				737AFBF73989161E3FCBD926E30E94BC /* Easing.swift */,
+				6B145825375C91725A189FE50F4D8269 /* FaveButton.swift */,
+				EBB1DB69CE44DE681524F9B3BE014EC3 /* FaveIcon.swift */,
+				F585B0EAA3BA71C66E6A8BAC712744D4 /* Geometry.swift */,
+				885716617944D7973B75864E98C0C5D2 /* Init.swift */,
+				FC1CB0B4B87C2CA683CBC5620FB6C654 /* Ring.swift */,
+				C2128936F2E03FE107A47D12EB881AF8 /* Spark.swift */,
+				667EB13D4FC90772DF26821ECF751ACB /* Support Files */,
+			);
+			name = FaveButton;
+			path = FaveButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4CA391887326162B506E94CAAC2CFF08 /* Pods */,
+				36021BB2442B1205ECB4728C09A6C2E0 /* Products */,
+				9D56EDF3085CAFA608DBAB5110C4884A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D56EDF3085CAFA608DBAB5110C4884A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E90C27152F8584D957A86E7FE265CCB1 /* Pods-PodProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E90C27152F8584D957A86E7FE265CCB1 /* Pods-PodProject */ = {
+			isa = PBXGroup;
+			children = (
+				479231312FDBF141F9FDB588D853A43C /* Pods-PodProject.modulemap */,
+				8036A8CD7CC1592A4D3024600867A0CB /* Pods-PodProject-acknowledgements.markdown */,
+				D2EFB0844F57EAFD161EDFADFF04CDF3 /* Pods-PodProject-acknowledgements.plist */,
+				20048C1AA2745B2D61BEEB82FCE64120 /* Pods-PodProject-dummy.m */,
+				831E60BA669FA6AC0739D1554DE87C36 /* Pods-PodProject-frameworks.sh */,
+				FA7EF02ED2502503A9CCD906B687D9CF /* Pods-PodProject-resources.sh */,
+				C271DA50A36F9541451889E314D2DF58 /* Pods-PodProject-umbrella.h */,
+				F3D1C88DBB022976D7827E3B1E315602 /* Pods-PodProject.debug.xcconfig */,
+				62BAD76B9F37983B7C7C5D18FEED7FC0 /* Pods-PodProject.release.xcconfig */,
+			);
+			name = "Pods-PodProject";
+			path = "Target Support Files/Pods-PodProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC03730C498504239C4A746788FE19C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40B00F67F04EE67BAE542F96CDBDC89 /* FaveButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FFD05A75F7014ECABDD27DEAD777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABF9CBD6DBDF4284C60E90544893BF4 /* Pods-PodProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B0A2A3970BB3CC605B95F4FB59F8B77 /* FaveButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693926AE5D907E96CCD0825694D08618 /* Build configuration list for PBXNativeTarget "FaveButton" */;
+			buildPhases = (
+				6015F026CD25C3D22F0F3026536F52FF /* Sources */,
+				536E79C17B761804D57B0DC513D78681 /* Frameworks */,
+				AC03730C498504239C4A746788FE19C2 /* Headers */,
+				0D8CD6CD911F0EB0DE254DA9B77CDD27 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaveButton;
+			productName = FaveButton;
+			productReference = 5BE5B5B34A317C0D3614DA28832B54B1 /* libFaveButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		886A6444E66CD720EB6CCD7A015F6C6B /* Pods-PodProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4739393DA8393EF18D34D494528604E /* Build configuration list for PBXNativeTarget "Pods-PodProject" */;
+			buildPhases = (
+				738ADF9C63589B234360038E85B088FC /* Sources */,
+				42264542FEF4A672A8BDFF6C9CD7062E /* Frameworks */,
+				E7C4FFD05A75F7014ECABDD27DEAD777 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B94DAE7FFD1B8E7595C38BFCD0455F /* PBXTargetDependency */,
+			);
+			name = "Pods-PodProject";
+			productName = "Pods-PodProject";
+			productReference = AF90EBE5EC4554E7079DB4D67039CC16 /* libPods-PodProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 36021BB2442B1205ECB4728C09A6C2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0A2A3970BB3CC605B95F4FB59F8B77 /* FaveButton */,
+				886A6444E66CD720EB6CCD7A015F6C6B /* Pods-PodProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8CD6CD911F0EB0DE254DA9B77CDD27 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FaveButton/FaveButton.modulemap",
+				"${PODS_ROOT}/Headers/Public/FaveButton/FaveButton-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FaveButton-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FaveButton/FaveButton.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FaveButton/FaveButton-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6015F026CD25C3D22F0F3026536F52FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE80D32AC4CA8EDE1F4BDE7ACBF49F79 /* Constraints+.swift in Sources */,
+				1ECB6C42256CFB84EF41E6EE4D84A00A /* Easing.swift in Sources */,
+				CF84371C3E45A1BCF08CD9F117A8BF0F /* FaveButton-dummy.m in Sources */,
+				3B3E1EEB43DDE8FA1D63B7AD93A7D131 /* FaveButton.swift in Sources */,
+				CB9E38A0A00A6B49CBBCA62AA48E3D6F /* FaveIcon.swift in Sources */,
+				3323C2469962931486138882E0101305 /* Geometry.swift in Sources */,
+				D1E4152EE4E44B561C70C778089D123A /* Init.swift in Sources */,
+				1ABB5A073E931A6FDC27DB4D72A444ED /* Ring.swift in Sources */,
+				BBBF20F3F0663A466810033A60F3F83C /* Spark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738ADF9C63589B234360038E85B088FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62ACA94948F3B7615DFB455A3FEEDAF /* Pods-PodProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B94DAE7FFD1B8E7595C38BFCD0455F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaveButton;
+			target = 1B0A2A3970BB3CC605B95F4FB59F8B77 /* FaveButton */;
+			targetProxy = AB79C46CC85BFE429B83B3B0CD6FDB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E3D7CD5D3483069BC2E47707CB812A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BAD76B9F37983B7C7C5D18FEED7FC0 /* Pods-PodProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PodProject/Pods-PodProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28560C9682B708BDD81B1A7CBEA37730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5E5919A6E01F8A7BFDFDA01142FE52 /* FaveButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FaveButton/FaveButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/FaveButton/FaveButton.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FaveButton;
+				PRODUCT_NAME = FaveButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D09429A86A0680A41A246B000BC633E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5E5919A6E01F8A7BFDFDA01142FE52 /* FaveButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FaveButton/FaveButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/FaveButton/FaveButton.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FaveButton;
+				PRODUCT_NAME = FaveButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2B9B952DAE747E731F79448D50A3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D1C88DBB022976D7827E3B1E315602 /* Pods-PodProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PodProject/Pods-PodProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693926AE5D907E96CCD0825694D08618 /* Build configuration list for PBXNativeTarget "FaveButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D09429A86A0680A41A246B000BC633E /* Debug */,
+				28560C9682B708BDD81B1A7CBEA37730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4739393DA8393EF18D34D494528604E /* Build configuration list for PBXNativeTarget "Pods-PodProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2B9B952DAE747E731F79448D50A3A1 /* Debug */,
+				1E3D7CD5D3483069BC2E47707CB812A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
